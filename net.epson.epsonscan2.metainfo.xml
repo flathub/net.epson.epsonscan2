@@ -8,14 +8,20 @@
   <project_license>LGPL-2.1 AND LicenseRef-proprietary=http://download.ebz.epson.net/dsc/du/02/eula/global/LINUX_EN.html</project_license>
   <metadata_license>CC0-1.0</metadata_license>
   <description>
-    <p>Epson Scan 2 has its own front-end, it allows to set various scanner settings with graphical user interface and save the scanned images to the various file type.</p>
-    <p>It supports USB and network connection for the network capable scanners.</p>
-    <p>Scanner can be controlled via not only own front-end but also command line option.</p>
-    <p>This build is not supported by Epson Seiko Corporation</p>
+    <p>Epson Scan 2 is a scanning application for Epson scanner. It
+    allows to set various scanner settings with graphical user
+    interface and save the scanned images to the various file
+    type.</p>
+    <p>It supports USB, and network connection for the network capable
+    scanners.</p>
+    <p>Scanners can also be controlled with the command line.</p>
+    <p>While the application is Free Software, the scanner drivers
+    contains Proprietary components.</p>
+    <p>This build is not supported by Epson Seiko Corporation, and is provided as is.</p>
   </description>
   <screenshots>
     <screenshot>
-      <image>https://github.com/hfiguiere/flathub/raw/1d029b1c55c7394cf1b9a2eb957933b766caaf74/screenshots/epsonscan2-screenshot.png</image>
+      <image>https://github.com/flathub/net.epson.epsonscan2/raw/1d029b1c55c7394cf1b9a2eb957933b766caaf74/screenshots/epsonscan2-screenshot.png</image>
     </screenshot>
   </screenshots>
   <releases>
