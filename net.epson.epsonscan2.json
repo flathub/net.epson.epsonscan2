@@ -83,9 +83,9 @@
                 {
                     "type": "patch",
                     "paths": [
-                        "epsonscan2-build.patch",
-                        "epsonscan2-crash.patch",
-                        "epsonscan2-xdg-open.patch"
+                        "patches/epsonscan2-build.patch",
+                        "patches/epsonscan2-crash.patch",
+                        "patches/epsonscan2-xdg-open.patch"
                     ]
                 },
                 {
