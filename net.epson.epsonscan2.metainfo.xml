@@ -25,7 +25,10 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="6.6.42.0" date="2022-07-06" type="stable"/>
+    <release version="6.7.43.0" date="2023-04-18" type="stable"/>
+     <description>
+      <p>Updated the package to 6.7.43.0</p>
+    </description>
   </releases>
   <url type="homepage">http://support.epson.net/linux/en/epsonscan2.php</url>
   <url type="vcs-browser">http://support.epson.net/linux/src/scanner/epsonscan2/</url>
