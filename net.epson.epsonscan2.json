@@ -8,14 +8,66 @@
     "rename-icon": "escan2_app",
     "finish-args": [
         "--share=ipc",
+        "--share=network",
         "--socket=x11",
         "--device=all",
+        "--system-talk-name=org.freedesktop.Avahi",
         "--filesystem=xdg-pictures",
         "--filesystem=xdg-desktop",
         "--filesystem=xdg-documents",
         "--persist=.epsonscan2"
     ],
     "modules": [
+        {
+            "name": "avahi",
+            "cleanup": [
+                "/include",
+                "/lib/avahi",
+                "/lib/pkgconfig",
+                "/share/applications/*.desktop",
+                "/share/avahi",
+                "/share/man",
+                "*.a",
+                "*.la"
+            ],
+            "config-opts": [
+                "--with-distro=none",
+                "--disable-gobject",
+                "--disable-introspection",
+                "--disable-qt3",
+                "--disable-qt4",
+                "--disable-qt5",
+                "--disable-gtk",
+                "--disable-gtk3",
+                "--disable-core-docs",
+                "--disable-manpages",
+                "--disable-libdaemon",
+                "--disable-libevent",
+                "--disable-python",
+                "--disable-pygobject",
+                "--disable-mono",
+                "--disable-monodoc",
+                "--disable-autoipd",
+                "--disable-doxygen-doc",
+                "--disable-doxygen-dot",
+                "--disable-doxygen-xml",
+                "--disable-doxygen-html",
+                "--disable-manpages",
+                "--disable-xmltoman"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://www.avahi.org/download/avahi-0.8.tar.gz",
+                    "sha256": "060309d7a333d38d951bc27598c677af1796934dbd98e1024e7ad8de798fedda",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 147,
+                        "url-template": "https://www.avahi.org/download/avahi-$version.tar.gz"
+                    }
+                }
+            ]
+        },
         {
             "name": "epsonscan2-non-free",
             "buildsystem": "simple",
@@ -24,7 +76,7 @@
                 "tar Jxf data.tar.xz",
                 "chmod -R u+w usr",
                 "install -d ${FLATPAK_DEST}",
-                "mv usr/* ${FLATPAK_DEST}",
+                "cp -r usr/* ${FLATPAK_DEST}",
                 "python ./epson_patch.py"
             ],
             "sources": [
