@@ -43,6 +43,9 @@ xdg-documents, xdg-desktop.
 Persist `.epsonscan2` because that's where, being non XDG compliant,
 it stores the settings.
 
+It expects `avahi-browse` for network scanner, so `share=network` is
+needed, as well as the Avahi dbus access.
+
 ### Build options
 
 `-DCMAKE_INSTALL_LIBDIR=lib/x86_64-linux-gnu` is used because of where
@@ -81,7 +84,6 @@ they'll be hosted here.
 ### Known issues
 
 epsonscan2 expect `killall`. It's not in the runtime.
-It also expects `avahi-browse`. It's not built. (TODO)
 
 Scanner Supported (6.6.43)
 --------------------------
