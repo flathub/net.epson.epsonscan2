@@ -81,9 +81,11 @@ extracted from the vendor .ico found in the source..
 - screenshots: unfortunately the vendor doesn't provide screen, so
 they'll be hosted here.
 
-### Known issues
+### Dependencies
 
-epsonscan2 expect `killall`. It's not in the runtime.
+epsonscan2 expect `killall`, so we build it.
+
+`avahi-browse` as well. See note above for finish-args.
 
 Scanner Supported (6.6.43)
 --------------------------
