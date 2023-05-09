@@ -8,10 +8,10 @@ def patch(file, address):
     exe.seek(address)
     value = exe.read(3)
     if value != b'usr':
-        raise Exception("incorrect file")
+        raise Exception("incorrect file, read {} at {}".format(value, address))
     exe.seek(address)
     exe.write(b'app')
 
 with open('/app/lib/x86_64-linux-gnu/epsonscan2/non-free-exec/es2intif', 'r+b') as exe:
-    patch(exe, 0x20380 + 4)
-    patch(exe, 0x20400 + 1)
+    patch(exe, 0x21a10 + 13)
+    patch(exe, 0x21a90 + 9)
