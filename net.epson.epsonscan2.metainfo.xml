@@ -25,6 +25,38 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="6.7.43.0" date="2023-04-18">
+      <description>
+        <p>Added support for the following scanners:</p>
+        <ul>
+          <li>AM-C4000 Series</li>
+          <li>AM-C5000 Series</li>
+          <li>AM-C6000 Series</li>
+          <li>ET-2830 Series</li>
+          <li>ET-2840 Series</li>
+          <li>ET-4810 Series</li>
+          <li>Expression 13000XL</li>
+          <li>GT-S660</li>
+          <li>L3550 Series</li>
+          <li>L3560 Series</li>
+          <li>L5590 Series</li>
+          <li>LM-C4000</li>
+          <li>LM-C5000</li>
+          <li>LM-C6000</li>
+          <li>PX-M887F</li>
+          <li>Perfection V19II</li>
+          <li>Perfection V39II</li>
+          <li>SC-P8500DM Series</li>
+          <li>SC-T5700DM Series</li>
+          <li>SC-T7700DM Series</li>
+          <li>WF-4830 Series</li>
+          <li>WF-7830 Series</li>
+          <li>WF-7840 Series</li>
+          <li>WF-C5810 Series</li>
+          <li>WF-M4619 Series</li>
+        </ul>
+      </description>
+    </release>
     <release version="6.6.42.0" date="2022-07-06" type="stable"/>
   </releases>
   <url type="homepage">http://support.epson.net/linux/en/epsonscan2.php</url>
