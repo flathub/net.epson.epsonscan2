@@ -8,10 +8,10 @@ This flatpak is NOT official.
 
 See:
 
-http://download.ebz.epson.net/dsc/du/02/DriverDownloadInfo.do?LG2=EN&CN2=&DSCMI=139759&DSCCHK=f0627fdbbe9bd5f9b293c509c82d389fcd5f846c
+https://download.ebz.epson.net/dsc/du/02/DriverDownloadInfo.do?LG2=EN&CN2=&DSCMI=145374&DSCCHK=1e6cff0e589e8b2961ea4fc156f97c630737d6e9
 
 Source download
-http://support.epson.net/linux/src/scanner/epsonscan2/
+https://support.epson.net/linux/src/scanner/epsonscan2/
 
 Content
 -------
