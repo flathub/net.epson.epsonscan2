@@ -144,7 +144,7 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://support.epson.net/linux/src/scanner/epsonscan2/epsonscan2-6.7.43.0-1.src.tar.gz",
+                    "url": "https://support.epson.net/linux/src/scanner/epsonscan2/epsonscan2-6.7.43.0-1.src.tar.gz",
                     "sha256": "378f66d9150faf724618a87efd3338b680f7c1fe14e11a78f06f31900eb43a4a"
                 },
                 {
