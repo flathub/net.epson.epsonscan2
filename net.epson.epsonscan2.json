@@ -97,8 +97,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download2.ebz.epson.net/epsonscan2/common/deb/x64/epsonscan2-bundle-6.7.43.0.x86_64.deb.tar.gz",
-                    "sha256": "debc6e1e43730c73c41fc13eac91aeb25e234a720a8392953afc19603ec3ac68"
+                    "url": "https://download3.ebz.epson.net/dsc/f/03/00/14/53/68/a5e06101ba3f328dd747888e3dddebbb677bb8c8/epsonscan2-bundle-6.7.61.0.x86_64.deb.tar.gz",
+                    "sha256": "41b5f517535011a8fe2a890f84d1854ffde48efb7cdfbe8916d808f5e7297067"
                 },
                 {
                     "type": "file",
@@ -136,7 +136,6 @@
             ],
             "post-install": [
                 "install -Dm644 net.epson.epsonscan2.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo",
-                "install -Dm644 escan2_app-48.png ${FLATPAK_DEST}/share/icons/hicolor/48x48/apps/escan2_app.png",
                 "install -Dm644 escan2_app-256.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/escan2_app.png",
                 "install -Dm644 desktop/deb/x86_64/epsonscan2.desktop -t ${FLATPAK_DEST}/share/applications",
                 "desktop-file-edit --set-key=Exec --set-value=epsonscan2 ${FLATPAK_DEST}/share/applications/epsonscan2.desktop"
@@ -144,8 +143,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://support.epson.net/linux/src/scanner/epsonscan2/epsonscan2-6.7.43.0-1.src.tar.gz",
-                    "sha256": "378f66d9150faf724618a87efd3338b680f7c1fe14e11a78f06f31900eb43a4a"
+                    "url": "https://download3.ebz.epson.net/dsc/f/03/00/14/53/67/1a6447b4acc5568dfd970feba0518fabea35bca2/epsonscan2-6.7.61.0-1.src.tar.gz",
+                    "sha256": "7ec2026c724ab6961206eb6fc4cad061763db4ddfc6d5003fc2d0b829056afd4"
                 },
                 {
                     "type": "patch",
@@ -155,10 +154,6 @@
                         "patches/epsonscan2-xdg-open.patch",
                         "patches/epsonscan2-oob-container.patch"
                     ]
-                },
-                {
-                    "type": "file",
-                    "path": "escan2_app-48.png"
                 },
                 {
                     "type": "file",

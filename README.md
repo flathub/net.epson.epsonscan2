@@ -8,7 +8,7 @@ This flatpak is NOT official.
 
 See:
 
-https://download.ebz.epson.net/dsc/du/02/DriverDownloadInfo.do?LG2=EN&CN2=&DSCMI=145374&DSCCHK=1e6cff0e589e8b2961ea4fc156f97c630737d6e9
+https://download.ebz.epson.net/dsc/du/02/DriverDownloadInfo.do?LG2=JA&CN2=US&CTI=171&PRN=Linux%20src%20package&OSC=LX&DL
 
 Source download
 https://support.epson.net/linux/src/scanner/epsonscan2/

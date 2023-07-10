@@ -2,7 +2,7 @@
 <component type="desktop">
   <id>net.epson.epsonscan2</id>
   <name>Epson Scan 2</name>
-  <summary>Software for Epson scanners &amp; multifunction printer.</summary>
+  <summary>Software for Epson scanners &amp; multifunction printer</summary>
   <developer_name>Seiko Epson Corporation</developer_name>
   <launchable type="desktop-id">net.epson.epsonscan2.desktop</launchable>
   <project_license>LGPL-2.1 AND LicenseRef-proprietary=https://download.ebz.epson.net/dsc/du/02/eula/global/LINUX_EN.html</project_license>
@@ -25,6 +25,11 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="6.7.61.0" date="2023-04-27">
+      <description>
+        <p>Misc bug fixes.</p>
+      </description>
+    </release>
     <release version="6.7.43.0" date="2023-04-18">
       <description>
         <p>Added support for the following scanners:</p>
