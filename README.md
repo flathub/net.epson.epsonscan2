@@ -160,6 +160,7 @@ EP-712A Series
 EP-713A Series
 EP-714A Series
 EP-715A Series
+EP-716A Series
 EP-808A Series
 EP-810A Series
 EP-811A Series
@@ -167,6 +168,7 @@ EP-812A Series
 EP-813A Series
 EP-814A Series
 EP-815A Series
+EP-816A Series
 EP-879A Series
 EP-880A Series
 EP-881A Series
@@ -174,9 +176,11 @@ EP-882A Series
 EP-883A Series
 EP-884A Series
 EP-885A Series
+EP-886A Series
 EP-978A3 Series
 EP-979A3 Series
 EP-982A3 Series
+EP-M476T Series
 EP-M552T Series
 EP-M553T Series
 EP-M570T Series
@@ -196,6 +200,7 @@ ES-60WB
 ES-60WW
 ES-65WR
 ES-865
+ES-C220
 ES-C320W
 ES-C380W
 ET-15000 Series
@@ -283,6 +288,7 @@ GT-S640
 GT-S650
 GT-S660
 GT-X820
+GT-X830
 GT-X980
 L14150 Series
 L1455 Series
@@ -361,6 +367,7 @@ M15140 Series
 M15180 Series
 M200 Series
 M205 Series
+M2050 Series
 M2110 Series
 M2120 Series
 M2140 Series
@@ -371,11 +378,13 @@ M3180 Series
 PX-048A Series
 PX-049A Series
 PX-M160T Series
+PX-M161T Series
 PX-M270FT Series
 PX-M270T Series
 PX-M350F
 PX-M380F
 PX-M381FL
+PX-M382F
 PX-M5040F
 PX-M5041F
 PX-M5080F Series
@@ -415,6 +424,7 @@ Perfection V550
 Perfection V600 photo
 Perfection V800 Photo
 Perfection V850 Pro
+RR-400W
 RR-600W
 SC-P8500DM Series
 SC-T5700DM Series
@@ -424,6 +434,8 @@ ST-3000 Series
 ST-4000 Series
 ST-C2100 Series
 ST-C4100 Series
+ST-C5000 Series
+ST-C5500 Series
 ST-C8000 Series
 ST-C8090 Series
 ST-M3000 Series
@@ -490,6 +502,8 @@ WF-M21000 Series
 WF-M4619 Series
 WF-M5690 Series
 WF-M5799 Series
+WF-M5899 Series
+WF-M5899BAM
 WF-R8590 Series
 XP-2100 Series
 XP-2150 Series
