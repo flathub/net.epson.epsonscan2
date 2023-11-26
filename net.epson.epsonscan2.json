@@ -2,7 +2,7 @@
     "id": "net.epson.epsonscan2",
     "runtime": "org.kde.Platform",
     "sdk": "org.kde.Sdk",
-    "runtime-version": "5.15-22.08",
+    "runtime-version": "5.15-23.08",
     "command": "epsonscan2",
     "rename-desktop-file": "epsonscan2.desktop",
     "rename-icon": "escan2_app",
