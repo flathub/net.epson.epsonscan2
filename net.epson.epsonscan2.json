@@ -97,8 +97,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download3.ebz.epson.net/dsc/f/03/00/14/53/68/a5e06101ba3f328dd747888e3dddebbb677bb8c8/epsonscan2-bundle-6.7.61.0.x86_64.deb.tar.gz",
-                    "sha256": "41b5f517535011a8fe2a890f84d1854ffde48efb7cdfbe8916d808f5e7297067"
+                    "url": "https://download3.ebz.epson.net/dsc/f/03/00/15/17/68/050e5a55ed90f4efb4ca3bdd34e5797b149443ca/epsonscan2-bundle-6.7.63.0.x86_64.deb.tar.gz",
+                    "sha256": "6e4caf15625eab2dbdcac7fb160375e8f28fff7457866c824357d7baf93cba42"
                 },
                 {
                     "type": "file",
@@ -143,8 +143,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download3.ebz.epson.net/dsc/f/03/00/14/53/67/1a6447b4acc5568dfd970feba0518fabea35bca2/epsonscan2-6.7.61.0-1.src.tar.gz",
-                    "sha256": "7ec2026c724ab6961206eb6fc4cad061763db4ddfc6d5003fc2d0b829056afd4"
+                    "url": "https://download3.ebz.epson.net/dsc/f/03/00/15/17/69/0ef02802c476a6564f13cac929859c394f40326a/epsonscan2-6.7.63.0-1.src.tar.gz",
+                    "sha256": "10bc82e951ec5f677e8fcf91660da5e7904c4a67ac195a1119ab6e9d3c2eb9d4"
                 },
                 {
                     "type": "patch",

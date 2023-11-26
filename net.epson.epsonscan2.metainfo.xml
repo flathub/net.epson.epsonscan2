@@ -19,12 +19,37 @@
     contains Proprietary components.</p>
     <p>This build is not supported by Epson Seiko Corporation, and is provided as is.</p>
   </description>
+  <url type="homepage">https://support.epson.net/linux/en/epsonscan2.php</url>
+  <url type="vcs-browser">https://support.epson.net/linux/src/scanner/epsonscan2/</url>
+  <url type="help">https://download.ebz.epson.net/man/linux/epsonscan2_e.html</url>
+  <content_rating type="oars-1.1"/>
   <screenshots>
     <screenshot>
       <image>https://github.com/flathub/net.epson.epsonscan2/raw/1d029b1c55c7394cf1b9a2eb957933b766caaf74/screenshots/epsonscan2-screenshot.png</image>
     </screenshot>
   </screenshots>
   <releases>
+    <release version="6.7.63.0" date="2023-11-09">
+      <description>
+        <p>Added support for the following scanners:</p>
+        <ul>
+          <li>EP-716A Series</li>
+          <li>EP-816A Series</li>
+          <li>EP-886A Series</li>
+          <li>EP-M476T Series</li>
+          <li>ES-C220</li>
+          <li>GT-X830</li>
+          <li>M2050 Series</li>
+          <li>PX-M161T Series</li>
+          <li>PX-M382F</li>
+          <li>RR-400W</li>
+          <li>ST-C5000 Series</li>
+          <li>ST-C5500 Series</li>
+          <li>WF-M5899 Series</li>
+          <li>WF-M5899BAM</li>
+        </ul>
+      </description>
+    </release>
     <release version="6.7.61.0" date="2023-04-27">
       <description>
         <p>Added support for the following scanners:</p>
@@ -74,8 +99,4 @@
     </release>
     <release version="6.6.42.0" date="2022-07-06" type="stable"/>
   </releases>
-  <url type="homepage">https://support.epson.net/linux/en/epsonscan2.php</url>
-  <url type="vcs-browser">https://support.epson.net/linux/src/scanner/epsonscan2/</url>
-  <url type="help">https://download.ebz.epson.net/man/linux/epsonscan2_e.html</url>
-  <content_rating type="oars-1.1"/>
 </component>
