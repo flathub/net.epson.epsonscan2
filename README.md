@@ -87,9 +87,12 @@ epsonscan2 expect `killall`, so we build it.
 
 `avahi-browse` as well. See note above for finish-args.
 
-Scanner Supported (6.6.43)
+Scanner Supported (6.7.43)
 --------------------------
 
+AM-C4000 Series
+AM-C5000 Series
+AM-C6000 Series
 DS-1610
 DS-1630
 DS-1660W
@@ -207,6 +210,8 @@ ET-2760 Series
 ET-2800 Series
 ET-2810 Series
 ET-2820 Series
+ET-2830 Series
+ET-2840 Series
 ET-2850 Series
 ET-3600 Series
 ET-3700 Series
@@ -223,6 +228,7 @@ ET-4700 Series
 ET-4750 Series
 ET-4760 Series
 ET-4800 Series
+ET-4810 Series
 ET-4850 Series
 ET-5150 Series
 ET-5170 Series
@@ -260,6 +266,7 @@ EW-M873T Series
 EW-M970A3T Series
 EW-M973A3T Series
 Expression 12000XL
+Expression 13000XL
 FF-640
 FF-680W
 GT-F730
@@ -267,6 +274,7 @@ GT-F740
 GT-S630
 GT-S640
 GT-S650
+GT-S660
 GT-X820
 GT-X980
 L14150 Series
@@ -285,6 +293,8 @@ L3200 Series
 L3210 Series
 L3250 Series
 L3260 Series
+L3550 Series
+L3560 Series
 L375 Series
 L380 Series
 L382 Series
@@ -304,6 +314,7 @@ L486 Series
 L495 Series
 L5190 Series
 L5290 Series
+L5590 Series
 L565 Series
 L566 Series
 L575 Series
@@ -325,6 +336,9 @@ L7180 Series
 L8160 Series
 L8180 Series
 L850 Series
+LM-C4000
+LM-C5000
+LM-C6000
 LP-M8180A
 LP-M8180F
 LX-10000F
@@ -381,17 +395,23 @@ PX-M880FX
 PX-M884F
 PX-M885F
 PX-M886FL
+PX-M887F
 Perfection V19
+Perfection V19II
 Perfection V33
 Perfection V330 Photo
 Perfection V37
 Perfection V370
 Perfection V39
+Perfection V39II
 Perfection V550
 Perfection V600 photo
 Perfection V800 Photo
 Perfection V850 Pro
 RR-600W
+SC-P8500DM Series
+SC-T5700DM Series
+SC-T7700DM Series
 ST-2000 Series
 ST-3000 Series
 ST-4000 Series
@@ -421,6 +441,7 @@ WF-3730 Series
 WF-4720 Series
 WF-4730 Series
 WF-4740 Series
+WF-4830 Series
 WF-5620 Series
 WF-5690 Series
 WF-6530 Series
@@ -429,6 +450,8 @@ WF-7610 Series
 WF-7620 Series
 WF-7710 Series
 WF-7720 Series
+WF-7830 Series
+WF-7840 Series
 WF-8510 Series
 WF-8590 Series
 WF-C17590 Series
@@ -444,6 +467,7 @@ WF-C5790BAM
 WF-C579R Series
 WF-C579RB
 WF-C579RBAM
+WF-C5810 Series
 WF-C5890 Series
 WF-C5890BAM
 WF-C8610 Series
@@ -456,6 +480,7 @@ WF-C879R Series
 WF-C879RB
 WF-M20590 Series
 WF-M21000 Series
+WF-M4619 Series
 WF-M5690 Series
 WF-M5799 Series
 WF-R8590 Series
