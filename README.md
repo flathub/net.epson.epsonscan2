@@ -87,7 +87,7 @@ epsonscan2 expect `killall`, so we build it.
 
 `avahi-browse` as well. See note above for finish-args.
 
-Scanner Supported (6.7.43)
+Scanner Supported (6.7.61)
 --------------------------
 
 AM-C4000 Series
@@ -140,7 +140,12 @@ DS-870
 DS-875
 DS-970
 DS-975
+DS-C330
+DS-C420W
+DS-C480W
+DS-C490
 DS-G20000
+DS-G30000
 EC-4020 Series
 EC-4030 Series
 EC-4040 Series
@@ -191,6 +196,8 @@ ES-60WB
 ES-60WW
 ES-65WR
 ES-865
+ES-C320W
+ES-C380W
 ET-15000 Series
 ET-16500 Series
 ET-16600 Series

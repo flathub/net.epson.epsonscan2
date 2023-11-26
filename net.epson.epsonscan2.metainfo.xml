@@ -27,6 +27,16 @@
   <releases>
     <release version="6.7.61.0" date="2023-04-27">
       <description>
+        <p>Added support for the following scanners:</p>
+        <ul>
+          <li>DS-C330</li>
+          <li>DS-C420W</li>
+          <li>DS-C480W</li>
+          <li>DS-C490</li>
+          <li>DS-G30000</li>
+          <li>ES-C320W</li>
+          <li>ES-C380W</li>
+        </ul>
         <p>Misc bug fixes.</p>
       </description>
     </release>
