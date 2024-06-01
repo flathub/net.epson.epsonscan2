@@ -19,16 +19,34 @@
     contains Proprietary components.</p>
     <p>This build is not supported by Epson Seiko Corporation, and is provided as is.</p>
   </description>
-  <url type="homepage">https://support.epson.net/linux/en/epsonscan2.php</url>
-  <url type="vcs-browser">https://support.epson.net/linux/src/scanner/epsonscan2/</url>
+  <url type="homepage">https://download.ebz.epson.net/dsc/search/01/search/</url>
   <url type="help">https://download.ebz.epson.net/man/linux/epsonscan2_e.html</url>
   <content_rating type="oars-1.1"/>
   <screenshots>
-    <screenshot>
+    <screenshot type="default">
       <image>https://github.com/flathub/net.epson.epsonscan2/raw/1d029b1c55c7394cf1b9a2eb957933b766caaf74/screenshots/epsonscan2-screenshot.png</image>
     </screenshot>
   </screenshots>
   <releases>
+    <release version="6.7.65.0" date="2024-05-28">
+      <description>
+        <p>Added support for the following scanners:</p>
+        <ul>
+          <li>AM-C400 Series</li>
+          <li>AM-C550 Series</li>
+          <li>ET-2860 Series</li>
+          <li>ET-2870 Series</li>
+          <li>EW-056A Series</li>
+          <li>EW-456A Series</li>
+          <li>L3230 Series</li>
+          <li>L3270 Series</li>
+          <li>L3280 Series</li>
+          <li>L5310 Series</li>
+          <li>L8100 Series</li>
+          <li>LM-C400</li>
+        </ul>
+      </description>
+    </release>
     <release version="6.7.63.0" date="2023-11-09">
       <description>
         <p>Added support for the following scanners:</p>

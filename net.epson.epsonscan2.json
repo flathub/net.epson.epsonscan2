@@ -97,8 +97,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download3.ebz.epson.net/dsc/f/03/00/15/17/68/050e5a55ed90f4efb4ca3bdd34e5797b149443ca/epsonscan2-bundle-6.7.63.0.x86_64.deb.tar.gz",
-                    "sha256": "6e4caf15625eab2dbdcac7fb160375e8f28fff7457866c824357d7baf93cba42"
+                    "url": "https://download3.ebz.epson.net/dsc/f/03/00/15/87/26/2525daf2881161ddb0957e22601734bfedab5152/epsonscan2-bundle-6.7.65.0.x86_64.deb.tar.gz",
+                    "sha256": "66fe6bd9189dc67cd3d61c852eacc01ecaa1de59cc029d948d2199b38dca932d"
                 },
                 {
                     "type": "file",
@@ -143,16 +143,16 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download3.ebz.epson.net/dsc/f/03/00/15/17/69/0ef02802c476a6564f13cac929859c394f40326a/epsonscan2-6.7.63.0-1.src.tar.gz",
-                    "sha256": "10bc82e951ec5f677e8fcf91660da5e7904c4a67ac195a1119ab6e9d3c2eb9d4"
+                    "url": "https://download3.ebz.epson.net/dsc/f/03/00/15/87/25/a00d9b45f416c29b5b5cf569e76448b918c0eabd/epsonscan2-6.7.65.0-1.src.tar.gz",
+                    "sha256": "a45dfacdd1f4119048cda9f2ba4e12a7fc4b77a5e8ba709c6de0051771926b6d"
                 },
                 {
                     "type": "patch",
                     "paths": [
-                        "patches/epsonscan2-build.patch",
-                        "patches/epsonscan2-crash.patch",
-                        "patches/epsonscan2-xdg-open.patch",
-                        "patches/epsonscan2-oob-container.patch"
+                        "patches/0001-Fix-prefix-to-flatpak.patch",
+                        "patches/0002-Fix-crash.patch",
+                        "patches/0003-Use-XDG-open-to-open-the-directory.patch",
+                        "patches/0004-Fix-a-crash-on-an-OOB-container-access.patch"
                     ]
                 },
                 {

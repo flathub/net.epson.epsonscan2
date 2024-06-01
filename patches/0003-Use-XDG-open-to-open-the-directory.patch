@@ -1,0 +1,36 @@
+From 53685b913a613023a3e3a037b5cc479bbcebdc2a Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Hubert=20Figui=C3=A8re?= <hub@figuiere.net>
+Date: Sat, 1 Jun 2024 19:42:38 -0400
+Subject: [PATCH 3/4] Use XDG open to open the directory
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Signed-off-by: Hubert Figuière <hub@figuiere.net>
+---
+ src/Standalone/savedestfolder.cpp | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+diff --git a/src/Standalone/savedestfolder.cpp b/src/Standalone/savedestfolder.cpp
+index 7480631..7df5941 100755
+--- a/src/Standalone/savedestfolder.cpp
++++ b/src/Standalone/savedestfolder.cpp
+@@ -43,7 +43,14 @@ bool SaveDestFolder::open_folder(Supervisor* sv)
+     int cmd_size = 0;
+     const bool result = ES_CMN_FUNCS::PATH::ES_IsExistFile(sv->device_data.SelectPath);
+     if (result) {
+-        if(system("which nautilus > /dev/null") == 0){
++        if(system("which xdg-open > /dev/null") == 0){
++            cmd_size = strlen("xdg-open ");
++            failer = (char *)malloc(cmd_size+1);
++            if(failer){
++               memset(failer, 0, cmd_size+1);
++               memcpy(failer, "xdg-open", cmd_size);
++            }
++        } else if(system("which nautilus > /dev/null") == 0){
+             cmd_size = strlen("nautilus ");
+             failer = (char *)malloc(cmd_size+1);
+             if(failer){
+-- 
+2.45.0
+

@@ -1,0 +1,31 @@
+From a162321f309b38d97442cac06185ebfb098b3b22 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Hubert=20Figui=C3=A8re?= <hub@figuiere.net>
+Date: Sat, 1 Jun 2024 19:41:51 -0400
+Subject: [PATCH 2/4] Fix crash
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Signed-off-by: Hubert Figuière <hub@figuiere.net>
+---
+ src/ES2Command/Src/Interface/ipc/ipcInterfaceImpl.cpp | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/src/ES2Command/Src/Interface/ipc/ipcInterfaceImpl.cpp b/src/ES2Command/Src/Interface/ipc/ipcInterfaceImpl.cpp
+index a095ffd..0f1bc90 100755
+--- a/src/ES2Command/Src/Interface/ipc/ipcInterfaceImpl.cpp
++++ b/src/ES2Command/Src/Interface/ipc/ipcInterfaceImpl.cpp
+@@ -128,7 +128,9 @@ ESErrorCode IPCInterfaceImpl::Open()
+         if(!ES_IsExistFile(dat_file)){
+             FILE *fp;
+             fp = fopen(dat_file.c_str(),"w");
+-            fclose(fp);
++            if (fp) {
++              fclose(fp);
++            }
+         }
+         interrupt_.reset(new ipc_interrupt(delegate_, dat_file, IPC_SHARED_ID, IPC_SEMAHORE_KEY));
+         interrupt_->start();
+-- 
+2.45.0
+
