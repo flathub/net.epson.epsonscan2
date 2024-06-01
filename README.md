@@ -8,10 +8,11 @@ This flatpak is NOT official.
 
 See:
 
+https://download.ebz.epson.net/dsc/du/02/DriverDownloadInfo.do?LG2=EN&CN2=&DSCMI=153692&DSCCHK=2db293b29a6722259f6e217aa68ab2dd852e767d
+
+Direct Source download:
 https://download.ebz.epson.net/dsc/du/02/DriverDownloadInfo.do?LG2=JA&CN2=US&CTI=171&PRN=Linux%20src%20package&OSC=LX&DL
 
-Source download
-https://support.epson.net/linux/src/scanner/epsonscan2/
 
 Content
 -------
@@ -35,7 +36,7 @@ this is restricted to `x86_64`.
 
 Wayland cause the app to bail out.
 
-Network isn't enabled. Might be needed for networks scanning.
+Network is enabled. It is needed for networks scanning.
 
 Filesystem locations are the default offered in the app: xdg-pictures,
 xdg-documents, xdg-desktop.
@@ -87,7 +88,7 @@ epsonscan2 expect `killall`, so we build it.
 
 `avahi-browse` as well. See note above for finish-args.
 
-Scanner Supported (6.7.61)
+Scanner Supported (6.7.63)
 --------------------------
 
 AM-C4000 Series
