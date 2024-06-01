@@ -88,11 +88,13 @@ epsonscan2 expect `killall`, so we build it.
 
 `avahi-browse` as well. See note above for finish-args.
 
-Scanner Supported (6.7.63)
+Scanner Supported (6.7.65)
 --------------------------
 
+AM-C400 Series
 AM-C4000 Series
 AM-C5000 Series
+AM-C550 Series
 AM-C6000 Series
 DS-1610
 DS-1630
@@ -226,6 +228,8 @@ ET-2820 Series
 ET-2830 Series
 ET-2840 Series
 ET-2850 Series
+ET-2860 Series
+ET-2870 Series
 ET-3600 Series
 ET-3700 Series
 ET-3710 Series
@@ -263,7 +267,9 @@ ET-M3140 Series
 ET-M3170 Series
 ET-M3180 Series
 EW-052A Series
+EW-056A Series
 EW-452A Series
+EW-456A Series
 EW-M5071FT Series
 EW-M5610FT Series
 EW-M571T Series
@@ -305,8 +311,11 @@ L3150 Series
 L3160 Series
 L3200 Series
 L3210 Series
+L3230 Series
 L3250 Series
 L3260 Series
+L3270 Series
+L3280 Series
 L3550 Series
 L3560 Series
 L375 Series
@@ -328,6 +337,7 @@ L486 Series
 L495 Series
 L5190 Series
 L5290 Series
+L5310 Series
 L5590 Series
 L565 Series
 L566 Series
@@ -347,9 +357,11 @@ L6570 Series
 L6580 Series
 L7160 Series
 L7180 Series
+L8100 Series
 L8160 Series
 L8180 Series
 L850 Series
+LM-C400
 LM-C4000
 LM-C5000
 LM-C6000
