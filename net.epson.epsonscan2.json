@@ -152,7 +152,8 @@
                         "patches/0001-Fix-prefix-to-flatpak.patch",
                         "patches/0002-Fix-crash.patch",
                         "patches/0003-Use-XDG-open-to-open-the-directory.patch",
-                        "patches/0004-Fix-a-crash-on-an-OOB-container-access.patch"
+                        "patches/0004-Fix-a-crash-on-an-OOB-container-access.patch",
+                        "patches/0005-Fix-folder-creation-crash.patch"
                     ]
                 },
                 {
