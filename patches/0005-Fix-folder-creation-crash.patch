@@ -1,0 +1,11 @@
+diff -ruN orig/src/CommonUtility/utils/PathUtils.cpp new/src/CommonUtility/utils/PathUtils.cpp
+--- orig/src/CommonUtility/utils/PathUtils.cpp	2024-05-21 11:16:01.000000000 +0200
++++ new/src/CommonUtility/utils/PathUtils.cpp	2025-01-21 16:18:36.420143443 +0100
+@@ -606,7 +606,6 @@
+       else
+       {
+        bResult = TRUE;
+-       break;
+       }
+      }
+ #endif
