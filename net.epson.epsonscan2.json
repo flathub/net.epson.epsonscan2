@@ -15,6 +15,7 @@
         "--filesystem=xdg-pictures",
         "--filesystem=xdg-desktop",
         "--filesystem=xdg-documents",
+        "--env=LD_LIBRARY_PATH=/app/lib/x86_64-linux-gnu/epsonscan2-ocr",
         "--persist=.epsonscan2"
     ],
     "modules": [

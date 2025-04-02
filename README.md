@@ -47,6 +47,9 @@ it stores the settings.
 It expects `avahi-browse` for network scanner, so `share=network` is
 needed, as well as the Avahi dbus access.
 
+Setting `LD_LIBRARY_PATH` to `/app/lib/x86_64-linux-gnu/epsonscan2-ocr`
+is necessary. See issue #19.
+
 ### Build options
 
 `-DCMAKE_INSTALL_LIBDIR=lib/x86_64-linux-gnu` is used because of where
