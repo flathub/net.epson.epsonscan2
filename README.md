@@ -34,8 +34,6 @@ this is restricted to `x86_64`.
 
 ### Finish args
 
-Wayland cause the app to bail out.
-
 Network is enabled. It is needed for networks scanning.
 
 Filesystem locations are the default offered in the app: xdg-pictures,

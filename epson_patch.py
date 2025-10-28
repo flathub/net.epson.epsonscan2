@@ -13,5 +13,5 @@ def patch(file, address):
     exe.write(b'app')
 
 with open('/app/lib/x86_64-linux-gnu/epsonscan2/non-free-exec/es2intif', 'r+b') as exe:
-    patch(exe, 0x219a0 + 5)
-    patch(exe, 0x21a20 + 1)
+    patch(exe, 0x22570 + 13)
+    patch(exe, 0x225f0 + 9)

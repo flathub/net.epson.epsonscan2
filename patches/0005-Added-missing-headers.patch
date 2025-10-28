@@ -1,7 +1,7 @@
-From 5ab2611dc0bccd619d7a6be01866e80cef063e15 Mon Sep 17 00:00:00 2001
+From debb8cb7ec13ec97856afdf5358ef2b389aac9c6 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Hubert=20Figui=C3=A8re?= <hub@figuiere.net>
 Date: Wed, 29 Jan 2025 18:27:22 -0500
-Subject: [PATCH] Added missing headers
+Subject: [PATCH 5/5] Added missing headers
 MIME-Version: 1.0
 Content-Type: text/plain; charset=UTF-8
 Content-Transfer-Encoding: 8bit
@@ -53,5 +53,5 @@ index c7b5651..cc82948 100644
  
  /* Local functions */
 -- 
-2.48.1
+2.51.0
 
