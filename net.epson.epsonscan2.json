@@ -2,7 +2,7 @@
     "id": "net.epson.epsonscan2",
     "runtime": "org.kde.Platform",
     "sdk": "org.kde.Sdk",
-    "runtime-version": "5.15-24.08",
+    "runtime-version": "5.15-25.08",
     "command": "epsonscan2",
     "rename-desktop-file": "epsonscan2.desktop",
     "rename-icon": "escan2_app",
@@ -127,12 +127,15 @@
                 }
             ]
         },
-        "shared-modules/libusb/libusb.json",
         {
             "name": "epsonscan2",
             "buildsystem": "cmake-ninja",
+            "build-options": {
+                "cxxflags": "-Wno-error=template-body"
+            },
             "config-opts": [
                 "-DCMAKE_BUILD_TYPE=Release",
+                "-DCMAKE_POLICY_VERSION_MINIMUM=3.5",
                 "-DCMAKE_INSTALL_LIBDIR=lib/x86_64-linux-gnu"
             ],
             "post-install": [
