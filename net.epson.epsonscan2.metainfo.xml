@@ -29,6 +29,16 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="6.7.82.0" date="2025-10-27">
+      <description>
+        <p>Added support for the following scanners: (Unknown)</p>
+      </description>
+    </release>
+    <release version="6.7.80.0" date="2025-10-02">
+      <description>
+        <p>Added support for the following scanners: (Unknown)</p>
+      </description>
+    </release>
     <release version="6.7.65.0" date="2024-05-28">
       <description>
         <p>Added support for the following scanners:</p>
